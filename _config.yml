@@ -4,7 +4,7 @@
 title: Meandering
 #logo: logo.png # You can add own logo
 #description: # Add your awesome description
-baseurl: "meandering" # The subpath of your site, e.g. /blog
+baseurl: "" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
 # Preloader
