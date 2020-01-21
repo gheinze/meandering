@@ -25,12 +25,12 @@
         </li>
         {% else %}
         <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="{{ menu-item.url }}">{{ menu-item.name }}</a>
+          <a class="nav-link text-uppercase text-dark" href="{{site.baseurl}}/{{ menu-item.url }}">{{ menu-item.name }}</a>
         </li>
         {% endif %}
         {% endfor %}
       </ul>
-      <form class="form-inline position-relative ml-lg-4" action="/search.html" method="get">
+      <form class="form-inline position-relative ml-lg-4" action="{{site.baseurl}}/search.html" method="get">
         <input class="form-control px-0 w-100" type="search" id="search-box" name="query" placeholder="Search">
         <button class="search-icon" type="submit"><i class="ti-search text-dark"></i></button>
       </form>
