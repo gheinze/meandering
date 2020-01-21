@@ -1,0 +1,104 @@
+#-------------------------------
+# General Site Settings
+
+title: Meandering
+#logo: logo.png # You can add own logo
+#description: # Add your awesome description
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "" # The base hostname & protocol for your site, e.g. http://example.com
+
+# Preloader
+preloader: true # To disable preloader change value to false
+
+menu:
+  - url: /
+    name: Home
+#  - url: /about/
+#    name: About
+#  - url: /categories/
+#    name: Categories
+#  - url: /contact/
+#    name: Contact
+
+# *** NOTE ***
+# You can add submenus. For example:
+
+#  menu:
+#  - url: /
+#    name: Home
+#  - url: /travel/
+#    name: Travel
+#     submenu:
+#      - url: /peru/
+#        name: Peru
+# ----------------------------------
+
+layout_home_page: false # Homepage layout ( two layout is available, you can set the another layout by change the value of layout_home_page "true" to "false")
+
+featured-post-slider: false # You can enable or disable the featured-post-slider using true or false values.
+
+#-------------------------------
+# Hero Section
+hero:
+  hero-subtitle: Meandering
+  hero-banner: Sunset_Shirahama_DSCF7839.JPG # Add your banner image '/assets/images/'
+
+#-------------------------------
+# Author Settings
+author:
+  name: Glenn
+
+#-------------------------------
+# Contact Info
+contact:
+  email: glenn_heinze@yahoo.com
+#  phone: +90 000 333 22
+#  address:
+#    city: Sydney
+#    street: 6 rip carl Avenue CA 90733
+
+# Contact Form
+contact-form: glenn_heinze@yahoo.com
+
+# Social links
+social:
+- {icon: "ti-linkedin", link: "#"}
+- {icon: "ti-github", link: "#"}
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: meanderer
+
+
+#-------------------------------
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
+
+paginate: 10
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
