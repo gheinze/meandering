@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Tractor Day"
+date:   2020-01-22
+image: "assets/images/MF_DSCF8288.JPG"
+tags: [farm]
+---
+
+Mixed feelings today. A little Massey Ferguson replaces the old John Deere. Will it do the job?
+Will it be less maintenance? Easier to switch implements? I guess only time will tell.
+
+I hope someone does a nice job refurbishing the old John Deere a bit. 
+
+<a href="{{site.baseurl}}/assets/images/JD_DSCF8284.JPG">
+![image-consumption-pattern]({{site.baseurl}}/assets/images/JD_DSCF8284.JPG)
+</a>
