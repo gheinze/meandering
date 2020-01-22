@@ -105,7 +105,8 @@ layout: default
       <div class="col-12 mb-100">
         <article data-file="{{ post.url | prepend: site.baseurl }}" data-target="article" class="article-full-width {{class}}">
           <div class="post-image">
-            <img class="img-fluid" src="{{site.baseurl}}/{{post.image}}" alt="{{post.title}}">
+<!--            <img class="img-fluid" src="{{site.baseurl}}/{{post.image}}" alt="{{post.title}}"> -->
+<a href="{{ post.url | prepend: site.baseurl }}"><img class="img-fluid" src="{{site.baseurl}}/{{post.image}}" alt="{{post.title}}"></a>
           </div>
           <div class="post-content">
             <ul class="list-inline d-flex justify-content-between border-bottom post-meta pb-2 mb-4">
