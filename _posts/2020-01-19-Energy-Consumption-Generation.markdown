@@ -19,4 +19,4 @@ Note:
 + dates are based on billing cycle which is a month behind actual consumption
 + plot starts with bi-monthly billing cycle before moving to monthly
 
-![image-consumption-pattern](/assets/images/Consumption2014-2019.jpg)
+![image-consumption-pattern]({{site.baseurl}}/assets/images/Consumption2014-2019.jpg)
