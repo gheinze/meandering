@@ -1,0 +1,21 @@
+---
+layout: default
+title: Posting Index
+permalink: /postingIndex/
+---
+
+<div id="posting-index">
+    <h2>Posts</h2>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <span>{{ post.date | date: '%b %d, %Y' }}</span>
+            &raquo;
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | xml_escape }}</a>
+            {% if post.tags.size > 0 %}
+            <span style="font-size:small;">&nbsp;&nbsp;Tag{% if post.tags.size > 1 %}s{% endif %}: {{ post.tags | sort | join: ", " }}</span>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>

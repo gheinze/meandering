@@ -4,7 +4,7 @@
 title: Meandering
 #logo: logo.png # You can add own logo
 #description: # Add your awesome description
-#baseurl: "" # Bland for local, /meanding for github pages   # The subpath of your site, e.g. /blog
+#baseurl: "" # Blank for local, /meanding for github pages   # The subpath of your site, e.g. /blog
 baseurl: "/meandering" # The subpath of your site, e.g. /blog
 url:  # The base hostname & protocol for your site, e.g. http://example.com
 
@@ -16,6 +16,8 @@ menu:
     name: Home
   - url: /feed.xml
     name: "Atom Feed"
+  - url: /postingIndex/
+    name: "Post Index"
 #  - url: /about/
 #    name: About
 #  - url: /categories/
