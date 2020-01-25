@@ -21,4 +21,14 @@
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico" type="image/x-icon">
 
+  {% for css in page.custom-css-list %}
+  <link href="{{ css }}" rel="stylesheet">
+  {% endfor %}
+
+  {% for javascript in page.custom-javascript-list %}
+  <script src="{{ javascript }}"></script>
+  {% endfor %}
+
+
+
 </head>

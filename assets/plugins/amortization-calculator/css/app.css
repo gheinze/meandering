@@ -1,0 +1,71 @@
+html {
+  background-image: url(../icons/background.svg);
+  background-size: cover;
+}
+
+label {
+    font-size: 11px;
+    font-style: italic;
+}
+
+th, td {
+    text-align: right;
+    padding-right: 15px;
+    font-size: 80%;
+}
+
+.blue-background {
+  background-image: url(../icons/blueBackground.svg);
+  background-size: cover;
+}
+
+.ui-widget {
+    font-size:80%;
+}
+
+.spinner {
+    width: 30px;
+    height: 10px
+}
+
+.form-control {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.area {
+    border: solid 1px #85b1de;
+    background-color: #DDDDDD;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-areas: ". calculator schedule .";
+    grid-gap: 1em;
+}
+
+.calculator {
+    grid-area: calculator;
+    justify-self: end;
+    align-self: start;
+    border: solid 1px #85b1de;
+}
+
+.schedule {
+    grid-area: schedule;
+    justify-self: start;
+    align-self: start;
+}
+
+.term-grid {
+    display: grid;
+    grid-template: 1fr 1fr;
+    grid-template-areas: "term-years term-months";
+}
+
+.term-years {}
+.term-months {}
