@@ -70,10 +70,6 @@ social:
 - {icon: "ti-linkedin", link: "#"}
 - {icon: "ti-github", link: "#"}
 
-#-------------------------------
-# Comment Section (Disqus)
-disqus-identifier: meanderer
-
 
 #-------------------------------
 # Build settings
