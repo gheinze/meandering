@@ -15,3 +15,7 @@ Puzzled over this one for a bit. Some sleuthing by others started putting the pi
 * 最高の [Saikō no] is Japanese for "the greatest", "the best", ... or ... "the highest"
 
 And with that, we retreat from the edge of chaos.
+
+<a href="{{site.baseurl}}/assets/images/dreemup.jpg">
+![image-consumption-pattern]({{site.baseurl}}/assets/images/dreemup.jpg)
+</a>
