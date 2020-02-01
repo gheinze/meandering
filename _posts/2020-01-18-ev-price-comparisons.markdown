@@ -2,7 +2,7 @@
 layout: post
 title:  "Used EV Price Comparisons"
 date:   2020-01-18
-image: "assets/images/EV_AutoTrader_PricePlot.jpeg"
+image: "assets/images/EV_AutoTrader_PricePlot.jpg"
 categories: [green]
 tags: [green]
 ---
