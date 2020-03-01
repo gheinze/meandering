@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Snow Day"
+date:   2020-03-01
+image: "assets/images/lane_drift_DSCF8614.JPG"
+tags: [farm]
+---
+
+The day after
+
+<a href="{{site.baseurl}}/assets/images/lane_drift_blower_DSCF8634.JPG">
+![image-consumption-pattern]({{site.baseurl}}/assets/images/lane_drift_blower_DSCF8634.JPG)
+</a>
+
